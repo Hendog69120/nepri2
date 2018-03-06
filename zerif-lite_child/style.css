@@ -1,0 +1,112 @@
+/*
+ Theme Name:   zerif-lite_child
+ Theme URI:    http://nepri.fr/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       BAH Alpha-Omar
+ Author URI:   http://www.nepri.fr
+ Template:     zerif-lite
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  zerif-lite_child
+*/
+
+#site-navigation:before
+{
+    content: "\F015";
+    font-family: fontawesome;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 28px;
+}
+#main-nav {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    min-height: 95px !important;
+    margin-bottom: 0;
+}
+.navbar-inverse {
+    background-color: white;
+    border-color: white;
+}
+#event-description
+{
+    padding-left: 30px;
+}
+.event-description
+{
+    padding-left: 30px;
+}
+.inscriptions
+{
+    padding-left: 30px;
+}
+a:hover
+{
+    color: red !important;
+}
+a:focus
+{
+    color: none;
+}
+
+a:visited
+{
+   color: #428bca !important;
+}
+
+/*++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width: 791px)
+    {
+       th
+          {display: none;}
+       tr
+          {display: flex; 
+           flex-direction: column;
+           width: 593px 
+           margin-left: -17px;}
+       td 
+          {display: flex; 
+           flex-direction: column ;
+
+           width: 50%;}
+       #current-enents
+          {
+            width: 100%;
+          }
+      .navbar-brand
+          {
+             height: auto;
+          }
+      #site-navigation:before
+          {
+             margin-left: -20px;
+             margin-top: 15px;
+          }
+      
+      .elementor-element-axasncv
+          {
+            margin-left: -93px;
+            margin-right: -71px;
+
+          }
+      .elementor-25, .elementor-element, .elementor-element-axasncv
+          {
+            padding: 9px -20px 9px 9px;
+          }
+      input
+          {
+            width: 100%;
+          }
+
+      }
+      
+         
+
+
+
+           
+    
